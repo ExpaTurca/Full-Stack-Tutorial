@@ -1,16 +1,35 @@
-header{
-  margin: auto;
-  height: 256px;
-  display: block;
+body{
+    margin: 0 auto;
+    padding: 0  auto;
 }
 
+header{
+  height: 256px;
+  margin: 0 auto;
+}
 header img{
-  border-radius: 35%;
+  border-radius: 50%;
   width: 256px;
+  margin: 0 auto;
+  display: block;
+  position: static;
 }
 
 header div{
   width: 100%;
-  display: block;
+  display: inline-block;
+  text-align: center;
+  position: static;
+}
+
+table {
+  border: 1px solid #efa;
+  margin: 0 auto;
+  width: 512px;
+  position: static;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+td{
   text-align: center;
 }
