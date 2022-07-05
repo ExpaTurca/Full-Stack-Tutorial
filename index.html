@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Full-Stack Development with Angela</title>
+    <link rel="stylesheet" href="css/default.css">
+    <script type="text/javascript" lang="javascript">
+    function islem()
+        {
+          const weekdays = ["Monday","Tuesday", "Wednesday", "Thursday", "Friday","Saturday", "Sunday"];
+          var tarih = new Date();
+          document.write(weekdays[tarih.getDay() - 1]);
+        }
+    function status()
+    {
+        document.write(window.innerWidth);
+        document.write(window.innerHeight);
+    }
+        islem();
+        status();
+    </script>
+  </head>
+  <body>
+    <header>
+      <img id="profile_image" src="img/profile_image.jpg" alt="profile image">
+      <div>
+        <p>Muhammed Furkan Akgün</p>
+        <p>Full-Stack Developer</p>
+      </div>
+    </header>
+
+    <table style="border-spacing:0 0 10px 0;">
+      <thead>
+        <th>Skills</th>
+      </thead>
+      <style>
+        td{
+        padding-right:15px;
+      }
+      </style>
+      <tr>
+        <td>C#</td>
+        <td>★★★★★</td>
+        <td>Java</td>
+        <td>★★★★★</td>
+      </tr>
+      <tr>
+      <td>Python</td>
+      <td>★★★★★</td>
+        <td>React.js</td>
+        <td>★★★☆☆</td>
+      </tr>
+      <tr>
+        <td>Node.js</td>
+        <td>★★★☆☆</td>
+        <td>Angular</td>
+        <td>★★★☆☆</td>
+      </tr>
+      <tr>
+        <td>MongoDB</td>
+        <td>★★★☆☆</td>
+        <td>MySQL</td>
+        <td>★★★★☆</td>
+      </tr>
+    </table>
+    <hr style="border:3px solid #abc;">
+    <!--mailto:darknessmfa.95@outlook.com-->
+    <form class="" action="#" method="post" enctype="text/plain">
+      <label for="">Username:</label>
+      <input type="text" name="" placeholder="Username">
+      <label for="">E-Mail:</label>
+      <input type="email" name="" placeholder="yourmail@mail.com">
+      <input type="submit" name="" value="Login">
+    </form>
+  </body>
+</html>

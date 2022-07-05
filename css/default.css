@@ -1,0 +1,16 @@
+header{
+  margin: auto;
+  height: 256px;
+  display: block;
+}
+
+header img{
+  border-radius: 35%;
+  width: 256px;
+}
+
+header div{
+  width: 100%;
+  display: block;
+  text-align: center;
+}
